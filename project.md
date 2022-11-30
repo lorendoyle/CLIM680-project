@@ -6,9 +6,7 @@
 
 ## Gridded Data:
 ### UFS Plots with the corresponding tropical cyclones
-![emily_contours](https://user-images.githubusercontent.com/114028135/204725380-9529aa34-eebf-480f-8141-880513438416.png)
-![irene_contours](https://user-images.githubusercontent.com/114028135/204725436-8b3fd0e1-8d85-4185-adfd-bd6bcad5b04e.png)
-![lee_contours](https://user-images.githubusercontent.com/114028135/204725441-65c1ac11-8621-4335-9f2f-6abf662c010d.png)
+[contours](contours.md)
 
 
 ### Tropical Cyclone Maximum Sustained Wind Speeds

@@ -60,9 +60,9 @@ To do this, I need to find the month with the most storms and the month with the
 [tna_composites](tna_composites.md)
 # Correlations:
 ## HA Correlation
-
+[ha_correlations](ha_correlations.md)
 ## ACE Correlation
-
+[ace_correlations](ace_correlations.md)
 ## TNA Correlation
 
 # Linear Regression:

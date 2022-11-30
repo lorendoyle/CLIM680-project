@@ -39,6 +39,9 @@ I used the following data in my exploration:
 ## Indices:
 ### Hurricane Activity Index
 ![haindex](https://user-images.githubusercontent.com/114028135/204729604-3605aa33-07fd-48a1-ba20-5364f88e8c75.png)
+
+
+To do this, I need to find the month with the most storms and the month with the least storms for each year. 
 ### Accumulated Cyclone Energy Index
 ![aceindex](https://user-images.githubusercontent.com/114028135/204729725-6632743c-ef81-4870-ada5-bf0d35b8018e.png)
 ### Tropical North Atlantic Index

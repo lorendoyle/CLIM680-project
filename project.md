@@ -1,5 +1,5 @@
-# CLIM 680 Project: Is the UFS Reforecast data useful for reforecasting hurricanes?
-
+# Is the UFS Reforecast data useful for reforecasting hurricanes?
+# Introduction:
 
 
 # Data: What Are We Working With?
@@ -7,12 +7,8 @@
 ## Gridded Data:
 ### UFS Plots with the corresponding tropical cyclones
 [contours](contours.md)
-
-
 ### Tropical Cyclone Maximum Sustained Wind Speeds and Minimum Central Pressures
 [hurricane_vars](hurricane_vars.md)
-
-
 
 ## Indices:
 ### Hurricane Activity Index

@@ -45,7 +45,7 @@
 * compare the tropical cyclone pressures to the UFS z500 levels (maybe?)
 
 # Climatology and Anomalies
-[clim_anom](clim_anom.md)
+[clims_anoms](clims_anoms.md)
 
 
 # Results: What Did We Find?

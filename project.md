@@ -44,11 +44,8 @@
 * see if the later reforecasts are less accurate (visual comparisons, correlations, etc) (maybe?)
 * compare the tropical cyclone pressures to the UFS z500 levels (maybe?)
 
-# Climatology:
-## Yearly:
-![ts_yearly_clim](https://user-images.githubusercontent.com/114028135/204731700-4dc3bc30-eb5a-4c37-a5e6-648fbe26c950.png)
-## Monthly:
-![ts_monthly_clim](https://user-images.githubusercontent.com/114028135/204732370-37e2a6ea-aaa1-49d3-974a-32958ef591d4.png)
+# Climatology and Anomalies
+[clim_anom](clim_anom.md)
 
 
 # Results: What Did We Find?

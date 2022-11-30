@@ -55,9 +55,9 @@ To do this, I need to find the month with the most storms and the month with the
 ## Hurricane Activity Composites
 [ha_composites](ha_composites.md)
 ## Accumulated Cyclone Energy Composites
-
+[ace_composites](ace_composites.md)
 ## TNA Composites
-
+[tna_composites](tna_composites.md)
 # Correlations:
 ## HA Correlation
 

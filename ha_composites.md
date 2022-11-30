@@ -9,6 +9,7 @@
 ![precip_low_ha_comp](https://user-images.githubusercontent.com/114028135/204904564-8b7066c0-5ca8-4e2b-8b80-11b55fd6b001.png)
 ![z500_low_ha_comp](https://user-images.githubusercontent.com/114028135/204906393-9ea8e7bc-f44e-4479-8660-3d1c301dd239.png)
 
+# Observations:
 Hurricanes favor warm water, and high relative humidity, and are low pressure systems. So, high anomalies in surface temperature and precipitation, and low anomalies in z500 can indicate conditions favorable for hurricane/tropical cyclone formation/places where tropical storms can migrate to (a big reason why many hurricanes have trajectories through warmer tropical/subtropical waters like the Caribbean Sea and the Gulf of Mexico). 
 
 Using the composites from the alternative averaging method, we can make some observations:

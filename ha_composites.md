@@ -1,3 +1,31 @@
+We see from the HA index plot that we have some spikes in activity over time. 
+
+As a general observation, and from the tropical storm and hurricane frequency plot with a climatology from 1851-2017 (Landsea, Chris (contributor from the NHC). "Total and Average Number of Tropical Cylones by Month (1851-2017)". aoml.noaa.gov. National Oceanic and Atmospheric Administration, Atlantic Oceanographic and Meteorological Laboratory. Archived from the original on September 1, 2018.) we see that September is the most active month, with an average of 6 storms, August is the 2nd most active month, with an average of 4 storms, and October is the third most active month, with an average of 3 storms. This is why I have chosen August, September, and October as the months of investigation for my dataset. 
+
+![image](https://user-images.githubusercontent.com/114028135/204910109-f2e0c6c5-269f-4299-a94d-80331f1d51b1.png)
+
+For August, September, and October, the composite I am making is looking at the 3 largest and 3 smallest valued years for HAI for each month. To do this, I need to find the month with the most storms and the month with the least storms for each year. I ended up doing this by hand.
+
+August: 6.25=2011, 6=2012, 0=2013, 4.25=2014, 3.5=2015, 6=2016
+
+September: 12.25=2011, 13.37=2012, 3.25=2013, 4.5=2014, 1=2015, 3.5=2016
+
+October: 7.5=2011, 8=2012, 0=2013, 6.75=2014, 6.5=2015, 15.5=2016
+
+For August: 
+* 3 largest years: 2011, 2012, 2016
+* 3 smallest years: 2013, 2014, 2015
+
+For September:
+* 3 largest years: 2012, 2011, 2014
+* 3 smallest years: 2015, 2013, 2016
+
+For October: 
+* 3 largest years: 2016, 2012, 2011
+* 3 smallest years: 2013, 2014, 2015
+
+Interestingly, August and October match up in terms of years.
+
 # HA Composites
 ## High HA
 ![ts_high_ha_comp](https://user-images.githubusercontent.com/114028135/204893522-8f4d5d1a-dc32-423b-a7f7-24f452967b1c.png)

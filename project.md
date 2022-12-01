@@ -5,7 +5,7 @@ In this project, I used a few different datasets and indices to determine if UFS
 I'm interested in this because tropical cyclones, including depressions and storms, bring intense precipitation and winds which are damaging to many tropical and subtropical regions along the western boundary of the Atlantic, and as the planet's temperatures continue to rise, so do the sea surface temperatures (which are the main energy source of tropical cyclones), leading to more intense and unpredictable hurricane seasons each year. If the model is able to reforecast these events, then future forecasting could better predict when and where tropical cyclones can occur and migrate to, and can help minimize - and prevent - damages. 
 
 I used the following data in my exploration:
-* Data from UFS P7: precipitation, surface temperature, and 500 hPa geopotential height daily data for August, September, October from 2011 to 2016. 
+* Data from UFS P7: precipitation, surface temperature, and 500 hPa geopotential height daily data for August, September, October from 2011 to 2016, within the region from 95W to 72W and 23N 37N. This region covers part of the Southeast US, part of the Gulf of Mexico, and part of the Atlantic, which is where many tropical cyclones migrate to, so my reasoning was that this region would give me small enough datasets without overloading my storage while allowing me access to a relatively active hurricane region. 
 * Data from International Best Track Archive: hurricane tracks, wind speeds, and pressures for tropical cyclones within the lat/long bounds of UFS data during the specified months and years. 
 * Data from Physical Sciences Laboratory: Hurricane Activity Index = monthly total of storms per month per year, Accumulated Cyclone Energy Index = monthly total of cyclone energy per month per year, Tropical North Atlantic Index = monthly SST anomalies in degrees celsius. 
 Sources linked in [data_sources](data_sources.md)
@@ -34,10 +34,18 @@ Sources linked in [data_sources](data_sources.md)
 ## Indices:
 ### Hurricane Activity Index
 ![haindex](https://user-images.githubusercontent.com/114028135/204729604-3605aa33-07fd-48a1-ba20-5364f88e8c75.png)
+
+The Hurricane Acitivity Index (HA) is the total number of named tropical cyclones per month. 
+
 ### Accumulated Cyclone Energy Index
 ![aceindex](https://user-images.githubusercontent.com/114028135/204729725-6632743c-ef81-4870-ada5-bf0d35b8018e.png)
+
+The Accumulated Cyclone Energy Index (ACE) of a season is the sum of the squares of every tropical cyclone with wind speeds of 35 kts (65 km/h) or higher every 6 hours. 1 ACE = 10^4 kts^2. If an ACE index for a season is above 159.6 It is extremely active, if it 73-126.1 it is near-normal, and below 73 is below normal. ACE indices can be calculated for individual cyclones, as well as a monthly total, which is what I am working with. 
+
 ### Tropical North Atlantic Index
 ![tnaindex](https://user-images.githubusercontent.com/114028135/204729760-f11dcccf-7e06-4f88-a491-77006e4f0c1f.png)
+
+The Tropical North Atlantic SST Anomaly Index (TNA) is calculated in the TNA region of 55W-15W, 5N-25N.
 
 
 # Climatology and Anomalies

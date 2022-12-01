@@ -10,7 +10,7 @@ We see an average precipitation of about 15 mm/day off of the Mississippi River 
 
 ![z500_yearly_clim](https://user-images.githubusercontent.com/114028135/204884771-fe4f5ac9-933c-4a8c-b052-2b5b79736dea.png)
 
-We can see the z500 contours move higher into the atmosphere over the years, what does that mean though.
+We can see the z500 contours move higher into the atmosphere over the years. 
 
 
 ## Monthly Climatology
@@ -24,10 +24,12 @@ For precipitation, we still see a similar high precipitation near the Mississipp
 
 ![z500_monthly_clim](https://user-images.githubusercontent.com/114028135/204885128-d4e34159-c0e5-485e-ba78-ce089e25e05b.png)
 
-We can see the average of the height contours in August is relatively high, and by October, we start to see lower height contours move in. I dont know why though.
+We can see the average of the height contours in August is relatively high, and by October, we start to see lower height contours move in.
 
 # Anomalies Used to Calculate Percentiles
+
 I decided to plot the 95 Percentiles for surface temperature, precipitation, and 500 hPa geopotential height, and the 5 Percentiles for surface temperature and 500 hPa geopotential height to show if theres any extremes we can identify. 5 percentile is not calculated for precipitation because the precipitation can't be negative, and so the lowest it could be is 0 mm/day, which isn't really indicative of anything. 
+
 # 95 Percentile Yearly Anomalies
 ![ts_95_anoms](https://user-images.githubusercontent.com/114028135/204880613-bff175fd-770e-43be-995d-e471a21d7092.png)
 ![precip_95_anoms_year](https://user-images.githubusercontent.com/114028135/204883838-e3c297e8-018d-402e-8f8d-0ae6359ff1d1.png)
@@ -46,4 +48,3 @@ I decided to plot the 95 Percentiles for surface temperature, precipitation, and
 ![ts_5_anoms_month](https://user-images.githubusercontent.com/114028135/204886735-c69a956d-c811-4eb0-a272-3bbdef932a8a.png)
 ![z500_5_anoms_month](https://user-images.githubusercontent.com/114028135/204888646-192a9a46-aad5-4022-bc16-1cec50da9934.png)
 
-There's no 5P for precipitation because precipitation below the 5th percentile doesn't really make sense.

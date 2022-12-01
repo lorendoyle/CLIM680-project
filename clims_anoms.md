@@ -1,4 +1,5 @@
-# Yearly Climatology
+# Climatology
+## Yearly Climatology
 ![ts_yearly_clim](https://user-images.githubusercontent.com/114028135/204879300-b2d02ebe-6dab-4b0d-ac0b-b9ddad53b5dc.png)
 
 We can see that over the years for August through October, the surface warms up a bit, going from about 27 degrees Celsius to about 30 degrees Celsius. Something important to note about this data is that it is Surface Temperature, not Sea Surface Temperature.  
@@ -12,17 +13,21 @@ We see an average precipitation of about 15 mm/day off of the Mississippi River 
 We can see the z500 contours move higher into the atmosphere over the years, what does that mean though.
 
 
-# Monthly Climatology
+## Monthly Climatology
 ![ts_monthly_clim](https://user-images.githubusercontent.com/114028135/204879860-4cbd8562-5341-4fb8-bca4-58566cf743d9.png)
 
 As a monthly climatology, we can see that the surface temperature cools from August to October. In August, the average surface temperature is around 33 degrees celsius, and by October we have decreased to about 27 degrees Celsius, which is still favorable for tropical cyclones. 
 
 ![precip_monthly_clim](https://user-images.githubusercontent.com/114028135/204883799-d04ae100-4980-4b90-bce4-e89a2a633ced.png)
 
-For precipitation, we still see a similar high precipitation near the Mississippi River Delta. We also see more precipitation contours around the Atlantic and Florida for September, and even more contours around the Bahamas in October. This could indicate that the yearly climatology was influenced by specific months throughout the 5 years, specifically August 2011,  
+For precipitation, we still see a similar high precipitation near the Mississippi River Delta. We also see more precipitation contours around the Atlantic and Florida for September, and even more contours around the Bahamas in October. This could indicate that the yearly climatology was influenced by specific months throughout the 5 years, specifically August 2011, September 2013, and October 2016. Again, this isn't exactly accurate because the climatology was only take with 18 months worth of daily data, which isn't nearly enough data to make assumptions about trends. 
 
 ![z500_monthly_clim](https://user-images.githubusercontent.com/114028135/204885128-d4e34159-c0e5-485e-ba78-ce089e25e05b.png)
 
+We can see the average of the height contours in August is relatively high, and by October, we start to see lower height contours move in. I dont know why though.
+
+# Anomalies Used to Calculate Percentiles
+I decided to plot the 95 Percentiles for surface temperature, precipitation, and 500 hPa geopotential height, and the 5 Percentiles for surface temperature and 500 hPa geopotential height to show if theres any extremes we can identify. 5 percentile is not calculated for precipitation because the precipitation can't be negative, and so the lowest it could be is 0 mm/day, which isn't really indicative of anything. 
 # 95 Percentile Yearly Anomalies
 ![ts_95_anoms](https://user-images.githubusercontent.com/114028135/204880613-bff175fd-770e-43be-995d-e471a21d7092.png)
 ![precip_95_anoms_year](https://user-images.githubusercontent.com/114028135/204883838-e3c297e8-018d-402e-8f8d-0ae6359ff1d1.png)

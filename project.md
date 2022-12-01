@@ -58,7 +58,10 @@ The Tropical North Atlantic SST Anomaly Index (TNA) is calculated in the TNA reg
 [ace_composites](ace_composites.md)
 ## TNA Composites
 [tna_composites](tna_composites.md)
+
 # Correlations:
+This correlation will quantify how each of the variables in the UFS dataset at each point on the grid co-varies linearly with each index. So there will be a total of 9 correlations calculated. The correlations will then be used to identify if any statistical significance exists between the variables and the indices.
+
 ## HA Correlation
 [ha_correlations](ha_correlations.md)
 ## ACE Correlation

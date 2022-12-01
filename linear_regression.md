@@ -14,3 +14,6 @@ I performed a linear regression on the data that had the more significant correl
 ![reg_ha_z500](https://user-images.githubusercontent.com/114028135/204934571-421b817c-df75-46da-ac09-7b140475c11c.png)
 
 # Observations:
+The linear regressions performed are essentially identical to the correlations showing statistical significance performed, so this doesn't really tell us much beyond what the correlation told us. To get a better understanding of the correlation, a temporal correlation would be a better approach, for the future.
+
+What we can at least interpret from these results though, is that 

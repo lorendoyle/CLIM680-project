@@ -70,6 +70,9 @@ To do this, I need to find the month with the most storms and the month with the
 [linear_regression](linear_regression.md)
 
 # Summary: What Did We Learn?
+So, is UFS reforecast data useful in reforecasting hurricanes? Not particularly. The errors (perhaps lost data?) when aggregating the data from it's daily resample to a monthly resample and the nature of reforecast data being less accurate the farther you are from the initialization of the forecast could be contributing factors as to why the significance testing did not meet expectations/theory, why only some tropical cyclones match up with the UFS data directly, and why the complications with the complications with the composites exist.
+
+In the future, I would include the data initialized on the 15th (in addition to the initialization on the 1st), use an observation dataset to compare the reforecast data to, and do a temporal correlation instead of a linear regression. 
 
 # Conda Environment
 

@@ -5,7 +5,7 @@ In this project, I used a few different datasets and indices to determine if UFS
 I'm interested in this because tropical cyclones, including depressions and storms, bring intense precipitation and winds which are damaging to many tropical and subtropical regions along the western boundary of the Atlantic, and as the planet's temperatures continue to rise, so do the sea surface temperatures (which are the main energy source of tropical cyclones), leading to more intense and unpredictable hurricane seasons each year. If the model is able to reforecast these events, then future forecasting could better predict when and where tropical cyclones can occur and migrate to, and can help minimize - and prevent - damages. 
 
 I used the following data in my exploration:
-* Data from UFS: precipitation, surface temperature, and 500 hPa geopotential height daily data for August, September, October from 2011 to 2016. 
+* Data from UFS P7: precipitation, surface temperature, and 500 hPa geopotential height daily data for August, September, October from 2011 to 2016. 
 * Data from International Best Track Archive: hurricane tracks, wind speeds, and pressures for tropical cyclones within the lat/long bounds of UFS data during the specified months and years. 
 * Data from Physical Sciences Laboratory: Hurricane Activity Index = monthly total of storms per month per year, Accumulated Cyclone Energy Index = monthly total of cyclone energy per month per year, Tropical North Atlantic Index = monthly SST anomalies in degrees celsius. 
 

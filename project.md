@@ -1,6 +1,6 @@
 # Is the UFS Reforecast data useful for reforecasting hurricanes?
 # Introduction:
-In this project, I used a few different datasets and indices to determine if UFS reforecast data initialized on the first of every month was useful in reforecasting tropical cyclones in a specific region in the Atlantic for the 3 most active hurricane months in a 5 year period. 
+In this project, I used a few different datasets and indices to determine (to an extent) if UFS reforecast data initialized on the first of every month was useful in reforecasting tropical cyclones in a specific region in the Atlantic for the 3 most active hurricane months in a 5 year period. 
 
 I'm interested in this because tropical cyclones, including depressions and storms, bring intense precipitation and winds which are damaging to many tropical and subtropical regions along the western boundary of the Atlantic, and as the planet's temperatures continue to rise, so do the sea surface temperatures (which are the main energy source of tropical cyclones), leading to more intense and unpredictable hurricane seasons each year. If the model is able to reforecast these events, then future forecasting could better predict when and where tropical cyclones can occur and migrate to, and can help minimize - and prevent - damages. 
 
@@ -72,8 +72,28 @@ The Tropical North Atlantic SST Anomaly Index (TNA) is calculated in the TNA reg
 # Summary: What Did We Learn?
 So, is UFS reforecast data useful in reforecasting hurricanes? Not particularly. My approach was relatively informal and did not take into account the hurricane track data. I considered using it, but the time coordinate was tricky to parse out, and I did not have the time. The errors (perhaps lost data?) when aggregating the data from it's daily resample to a monthly resample and the nature of reforecast data being less accurate the farther you are from the initialization of the forecast could be contributing factors as to why the significance testing did not meet expectations/theory, why only some tropical cyclones match up with the UFS data directly, and why the complications with the complications with the composites exist.
 
-In the future, I would include the data initialized on the 15th (in addition to the initialization on the 1st), use an observation dataset to compare the reforecast data to, and do a temporal correlation instead of a linear regression. I would also like to incorporate the hurricane tracks, wind speeds, and central pressures in analysis to get a full scope of the reforecast's capabilities. 
+In the future, I would include the data initialized on the 15th (in addition to the initialization on the 1st), use an observation dataset to compare the reforecast data to, and do a temporal correlation instead of a linear regression. I would also like to incorporate the hurricane tracks, wind speeds, and central pressures in analysis to get a full scope of the reforecast's capabilities. Another thing I would like to do is perform my climatology with an observation dataset, or even just more years from the UFS reforecast data. Having only 6 years worth of data makes the climatology and therefore the anomalies a bit skewed at best and meaningless at worst.
 
 # Conda Environment
 
+Need to insert the yml file thingy thing
+
 # References
+
+make this look nice later
+
+https://web.archive.org/web/20180901052811/http://www.aoml.noaa.gov/hrd/tcfaq/E17.html
+
+https://www.epa.gov/climate-indicators/climate-change-indicators-tropical-cyclone-activity#tab-4
+
+https://www.nhc.noaa.gov/verification/
+
+https://www.nhc.noaa.gov/data/#tcr
+
+https://climateimpactcompany.com/tropical-feature-the-warm-tropical-north-atlantic-index-2/
+
+https://nca2009.globalchange.gov/national-climate-change/index.html
+
+https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/met.1456
+
+atmo.arizona.edu introduction to 500 mb height maps

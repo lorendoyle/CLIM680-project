@@ -18,7 +18,7 @@ From the plot, we can see that surface temperature does not appear to have a sig
 # Correlation Between HA and Precip:
 ![cor_ha_precip_anoms](https://user-images.githubusercontent.com/114028135/204928666-c8bb68e4-2dd9-496b-8626-e8c215b8391d.png)
 
-There appears to be some significant positive correlation between hurricane activity and precipitation (at the bottom of the grib between 90W and 85W), and significant negative correlation between hurricane activity and precipitation near Kentucky (very specific). This means that in Kentucky, when hurricane activity increases, precipitation will decrease, and if the activity decreases, precipitation will increase. 
+There appears to be some significant positive correlation between hurricane activity and precipitation (at the bottom of the grib between 90W and 85W), and significant negative correlation between hurricane activity and precipitation near Tennessee (very specific). This means that in Tennessee, when hurricane activity increases, precipitation will decrease, and if the activity decreases, precipitation will increase. 
 
 # Correlation Between HA and z500:
 ![cor_ha_z500_anoms](https://user-images.githubusercontent.com/114028135/204928780-86ad1ba6-a18a-44a7-a285-e685e52d42b1.png)

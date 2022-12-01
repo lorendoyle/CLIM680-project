@@ -67,13 +67,7 @@ To do this, I need to find the month with the most storms and the month with the
 [tna_correlations](tna_correlations.md)
 
 # Linear Regression:
-
-
-
-
-
-
-# Results: What Did We Find?
+[linear_regression](linear_regression.md)
 
 # Summary: What Did We Learn?
 

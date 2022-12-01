@@ -8,25 +8,20 @@ I used the following data in my exploration:
 * Data from UFS P7: precipitation, surface temperature, and 500 hPa geopotential height daily data for August, September, October from 2011 to 2016. 
 * Data from International Best Track Archive: hurricane tracks, wind speeds, and pressures for tropical cyclones within the lat/long bounds of UFS data during the specified months and years. 
 * Data from Physical Sciences Laboratory: Hurricane Activity Index = monthly total of storms per month per year, Accumulated Cyclone Energy Index = monthly total of cyclone energy per month per year, Tropical North Atlantic Index = monthly SST anomalies in degrees celsius. 
+Sources linked in [data_sources](data_sources.md)
 
 # Analysis Approach: 
 * calculate climatology by month/year 
-    * for year climatology, looking for trends in increase/decrease in variables over the years   (expecting ts to warm up over time, more intense precipitation and z500 etc)
 * calculate anomalies
 * use HA index to determine highest months of TC activity
     * HA composites
 * use ACE index to determine months of strongest TCs
     * ACE composites    
-* use TNA index to determine correspondence of SST anomalies with TCs (like, the actual TC data, do composites of that with TNA index) (maybe? TC data is 3 hourly, but TNA is monthly)
-    * TNA composites
-* use TNA index to determine correspondence of SST anomalies with precipitation anomalies, z500 anomalies, and ts anomalies
+* use TNA index to determine correspondence of high SST anomalies with anomalies of UFS variables
     * TNA composites
 * correlations and comparison plots with statistical significance
     * HA, ACE, TNA correlations
 * linear regression
-* temporal correlation coefficient (maybe?)
-* see if the later reforecasts are less accurate (visual comparisons, correlations, etc) (maybe?)
-* compare the tropical cyclone pressures to the UFS z500 levels (maybe?)
 
 # Visualization of Initial Data: 
 
@@ -39,9 +34,6 @@ I used the following data in my exploration:
 ## Indices:
 ### Hurricane Activity Index
 ![haindex](https://user-images.githubusercontent.com/114028135/204729604-3605aa33-07fd-48a1-ba20-5364f88e8c75.png)
-
-
-To do this, I need to find the month with the most storms and the month with the least storms for each year. 
 ### Accumulated Cyclone Energy Index
 ![aceindex](https://user-images.githubusercontent.com/114028135/204729725-6632743c-ef81-4870-ada5-bf0d35b8018e.png)
 ### Tropical North Atlantic Index
@@ -70,9 +62,9 @@ To do this, I need to find the month with the most storms and the month with the
 [linear_regression](linear_regression.md)
 
 # Summary: What Did We Learn?
-So, is UFS reforecast data useful in reforecasting hurricanes? Not particularly. The errors (perhaps lost data?) when aggregating the data from it's daily resample to a monthly resample and the nature of reforecast data being less accurate the farther you are from the initialization of the forecast could be contributing factors as to why the significance testing did not meet expectations/theory, why only some tropical cyclones match up with the UFS data directly, and why the complications with the complications with the composites exist.
+So, is UFS reforecast data useful in reforecasting hurricanes? Not particularly. My approach was relatively informal and did not take into account the hurricane track data. I considered using it, but the time coordinate was tricky to parse out, and I did not have the time. The errors (perhaps lost data?) when aggregating the data from it's daily resample to a monthly resample and the nature of reforecast data being less accurate the farther you are from the initialization of the forecast could be contributing factors as to why the significance testing did not meet expectations/theory, why only some tropical cyclones match up with the UFS data directly, and why the complications with the complications with the composites exist.
 
-In the future, I would include the data initialized on the 15th (in addition to the initialization on the 1st), use an observation dataset to compare the reforecast data to, and do a temporal correlation instead of a linear regression. 
+In the future, I would include the data initialized on the 15th (in addition to the initialization on the 1st), use an observation dataset to compare the reforecast data to, and do a temporal correlation instead of a linear regression. I would also like to incorporate the hurricane tracks, wind speeds, and central pressures in analysis to get a full scope of the reforecast's capabilities. 
 
 # Conda Environment
 

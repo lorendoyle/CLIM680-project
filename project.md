@@ -77,26 +77,21 @@ So, is UFS reforecast data useful in reforecasting hurricanes? Not particularly.
 
 In the future, I would include the data initialized on the 15th (in addition to the initialization on the 1st), use an observation dataset to compare the reforecast data to, and do a temporal correlation instead of a linear regression. I would also like to incorporate the hurricane tracks, wind speeds, and central pressures in analysis to get a full scope of the reforecast's capabilities. Another thing I would like to do is perform my climatology with an observation dataset, or even just more years from the UFS reforecast data. Having only 6 years worth of data makes the climatology and therefore the anomalies a bit skewed at best and meaningless at worst.
 
-# Conda Environment
-
-Need to insert the yml file thingy thing
 
 # References
 
-make this look nice later
+(n.d.). Retrieved from NOAA : https://web.archive.org/web/20180901052811/http://www.aoml.noaa.gov/hrd/tcfaq/E17.html
 
-https://web.archive.org/web/20180901052811/http://www.aoml.noaa.gov/hrd/tcfaq/E17.html
+(n.d.). Retrieved from https://climateimpactcompany.com/tropical-feature-the-warm-tropical-north-atlantic-index-2/
 
-https://www.epa.gov/climate-indicators/climate-change-indicators-tropical-cyclone-activity#tab-4
+Climate Change Indicators for Tropical Cyclone Activity. (n.d.). Retrieved from epa.gov: https://www.epa.gov/climate-indicators/climate-change-indicators-tropical-cyclone-activity#tab-4
 
-https://www.nhc.noaa.gov/verification/
+Data. (n.d.). Retrieved from National Hurricane Center: https://www.nhc.noaa.gov/data/#tcr 
 
-https://www.nhc.noaa.gov/data/#tcr
+Hurricane Verification. (n.d.). Retrieved from National Hurricane Center: https://www.nhc.noaa.gov/verification/
 
-https://climateimpactcompany.com/tropical-feature-the-warm-tropical-north-atlantic-index-2/
+Introduction to 500mb Height Maps. (n.d.). Retrieved from http://www.atmo.arizona.edu/students/courselinks/spring16/atmo336/lectures/sec1/info500mb.html
 
-https://nca2009.globalchange.gov/national-climate-change/index.html
+Moore, T., & Dixon, R. (2014). Patterns in 500 hPa geopotential height associated with temporal clusters of tropical cyclone tornadoes. Royal Meteorological Society.
 
-https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/met.1456
-
-atmo.arizona.edu introduction to 500 mb height maps
+National Climate Change Report 2009. (n.d.). Retrieved from https://nca2009.globalchange.gov/national-climate-change/index.html

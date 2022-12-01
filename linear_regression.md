@@ -16,4 +16,4 @@ I performed a linear regression on the data that had the more significant correl
 # Observations:
 The linear regressions performed are essentially identical to the correlations showing statistical significance performed, so this doesn't really tell us much beyond what the correlation told us. To get a better understanding of the correlation, a temporal correlation would be a better approach, for the future.
 
-What we can at least interpret from these results though, is that 
+What we can at least interpret from these results though, is that ACE is relatively more significantly correlated with precipitation than HA. Idk actually, i need to reread that notebook.
